@@ -1,0 +1,221 @@
+
+.wrapper{
+	overflow:hidden;
+	padding:10px;
+}
+.wrapper .listbox{
+	display:block;
+	border:1px solid #ccc;
+	padding:10px;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.user_block{
+	float:left;
+	width:50%;
+}
+.user_block .user{
+	width:30px;
+	height:30px;
+	float:left;
+	border-radius:50px;
+	border:1px solid #ccc;
+}
+.user_block .user span{
+	width:16px;
+	height:15px;
+	background:url(/apps/rollcall/resources/images/box_sprite.png) no-repeat 0 0;
+	margin: 8px 0 0 8px;
+	display:none;
+}
+.user_block .user img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.user_block span{
+    color: #000;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 9px 5px 0;
+}
+.flexbile_box{
+	float:right;
+	position:relative;
+	width:35%;
+}
+.expand_box{
+	float:right;
+	position:relative;
+	width:15%;
+}
+.expand_box .plus, .expand_box .collapsebox{
+	width:30px;
+	height:30px;
+	float:left;
+	margin-left:10px;
+	xborder-radius:50px;
+	cursor:pointer;
+	xborder:1px solid #ccc;
+    xbackground:#fff;	
+}
+.expand_box .plus span , .expand_box .collapsebox span{
+	width:14px;
+	background:url(/apps/rollcall/resources/images/box_sprite.png) no-repeat;
+	float:left;
+}
+.expand_box .plus span, .expand_box .collapsebox span{
+	background-position:0 -62px;
+	height:14px;
+	margin:9px 0 0 8px;
+	z-index:99999;
+}
+.flexbile_box .left_arrow{
+	width:30px;
+	height:30px;
+	float:left;
+	margin-left:10px;
+	xborder-radius:50px;
+	cursor:pointer;
+	xborder:1px solid #ccc;
+    xbackground:#fff;	
+}
+
+.flexbile_box .left_arrow span{
+	width:14px;
+	background:url(/apps/rollcall/resources/images/box_sprite.png) no-repeat;
+	float:left;
+}
+
+.flexbile_box .left_arrow span{
+	background-position:0 -15px;
+	height:10px;
+	margin:11px 0 0 8px;
+}
+.flexbile_box .expand{
+	float:left;
+	transition:all 0.55s;
+	xdisplay:none;
+}
+.expand .tick, .expand .close, .expand .info, .expand .plus{
+	width:30px;
+	height:30px;
+	float:left;
+	background:#fff;
+	border:1px solid #ccc;
+	margin-left:10px;
+	border-radius:50px;
+	cursor:pointer;
+}
+.expand .tick span, .expand .close span, .expand .info span{
+	width:14px;
+	background:url(/apps/rollcall/resources/images/box_sprite.png) no-repeat;
+	float:left;
+}
+.expand .tick span{
+	background-position:0 -50px;
+	height:11px;
+	margin:10px 0 0 9px;
+}
+.expand .close span{
+	background-position:0 -26px;
+	height:10px;
+	margin:10px 0 0 10px;
+}
+.close{
+	opacity:1 !important;
+}
+.expand .info span{
+	background-position:0 -37px;
+	height:12px;
+	margin:9px 0 0 12px;
+}
+.light_grey{
+	background:#f7f7f7;
+}
+.dark_grey{
+	background:#d1d3d6;
+}
+.subunit{
+	background:#f7f7f7;
+}
+.progress{width:100%;height:10px;border-radius:4px; border:1px solid #d6d8db;}
+.progress-bar{line-height:28px;}
+.summary_box{
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 10px;
+    color:#fff;
+}
+.summary_box .sublabel{
+	font-weight:bold;
+}
+.state_in{
+	background: #5cb85c;
+}
+.state_out{
+	background: #f0ad4e;
+}
+.state_missing{
+	background: #d9534f;	
+}
+.status_in{
+	background:#5cb85c;
+	text-align:center !important;
+}
+.status_out{
+	background:#f0ad4e;
+	text-align:center !important;
+}
+.status_missing{
+	background:#d9534f; 
+	text-align:center !important;
+}
+.count{
+	display: block; 
+	font-weight: bold; 
+	font-size: 2em;
+}
+#empModal{
+	background:#fff;
+}
+
+@media screen and (max-width:767px){
+.light_grey .user_block{
+	width:50% !important;
+}
+.dark_grey .user_block{
+	width:40% !important;
+}
+.light_grey  .flexbile_box{
+	width:50% !important;
+}
+.dark_grey  .flexbile_box{
+	width:50% !important;
+}
+.dark_grey  .expand_box{
+	width:10% !important;
+}
+.user_block span{
+	width:65%;
+	margin:5px 0 0 5px;
+}	
+.subunit{
+	clear:both;
+}
+.subunit .wrapper, .units{
+	padding:10px 0 !important;
+}
+.units .user_block{
+	padding-left:5px;
+}
+.subunit .listbox{
+	border-left:0;
+	border-right:0;
+	padding:10px 0;
+}
+.flexbile_box .expand{
+	width:120px !important;
+}
+}

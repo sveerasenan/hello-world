@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://logging.apache.org/log4php/">
+<appender name="appConsoleAppender" class="LoggerAppenderConsole" />
+<appender name="appFileAppender" class="LoggerAppenderFile">
+<layout class="LoggerLayoutPattern">
+<param name="conversionPattern" value="%date [%logger] %message%newline" />
+</layout>
+<param name="file" value="/apps/web/logs/phpapps/eoc_dev_log" />
+</appender>
+ <!-- use application name for the name attribute --> 
+<logger name="trek">
+<appender_ref ref="appFileAppender" />
+</logger>
+<root>
+<level value="DEBUG" />
+<appender_ref ref="appConsoleAppender" />
+</root>
+</configuration>

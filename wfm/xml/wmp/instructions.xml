@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?mso-infoPathSolution name="urn:schemas-microsoft-com:office:infopath:TCustomApps:" solutionVersion="1.0.0.8" productVersion="15.0.0.0" PIVersion="1.0.0.0" href="http://hqtwi414:8400/sites/mercury-cms/FormServerTemplates/TCustomApps.xsn" language="en-US"?>
+<?mso-application progid="InfoPath.Document" versionProgid="InfoPath.Document.3"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:ma="http://schemas.microsoft.com/office/2009/metadata/properties/metaAttributes" xmlns:d="http://schemas.microsoft.com/office/infopath/2009/WSSList/dataFields" xmlns:q="http://schemas.microsoft.com/office/infopath/2009/WSSList/queryFields" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:dms="http://schemas.microsoft.com/office/2009/documentManagement/types" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2015-04-22T20:31:35" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+  <metadata>
+    <jobId>84</jobId>
+    <pageId>1</pageId>
+    <title>WMP</title>
+    <author></author>
+    <dateStamp></dateStamp>
+    <modified></modified>
+    <expire></expire>
+    <description></description>
+    <keywords></keywords>
+    <pageType>CustomApp</pageType>
+    <pageSlug>WMP</pageSlug>
+    <breadcrumbs>
+    </breadcrumbs>
+    <parent></parent>
+    <siteMap></siteMap>
+  </metadata>
+  <custom-app>
+    <url>wmp/controller/instructionsController</url>
+  </custom-app>
+</page>
